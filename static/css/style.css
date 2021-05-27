@@ -1,0 +1,36 @@
+form,
+.playgroud {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 5px solid #FF5C5C;
+    padding: 2rem;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#Start-btn {
+    height: 3em;
+    width: 8em;
+    justify-content: center;
+}
+
+.playgroud {
+    align-items: center;
+}
+
+.btns,
+.btn {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin-left: 10%;
+    align-items: center;
+    border: 2px ridge #FF5C5C;
+    background-color: #FF5C5C;
+}
+
+#dice {
+    width: 100%;
+    border-radius: 20px;
+}

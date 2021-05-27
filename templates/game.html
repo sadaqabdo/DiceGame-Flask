@@ -1,0 +1,22 @@
+{% extends "layout.html"%} {%block content%}
+<div class="playgroud ">
+
+    <p style="text-decoration: underline; font-size: x-large; position: relative; align-self: center; ">
+        Hello {{ users["name"]}} ! ROLL IT </p>
+    <img src="/static/images/dice-0.png" alt="Dice" id="dice">
+    <div class="score">
+        <p>your score is:</p>
+        <p id="scoreExa"></p>
+    </div>
+    <div class="btuns">
+        <input type="button" value="new game" class="btn" id="newgameBtn" />
+        <input type="button" value="roll" class="btn" id="rollBtn" />
+        <input type="button" value="quit" class="btn" id="quitBtn" />
+
+    </div>
+</div>
+
+
+{%endblock content%} {%block scripts%}
+<script src="{{url_for('static',filename='js/script.js')}}"></script>
+{%endblock scripts%}
